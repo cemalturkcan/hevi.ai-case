@@ -1,0 +1,671 @@
+{
+  "studies": [
+    {
+      "id": "1",
+      "patientName": "CTA Head and Neck",
+      "mrn": "NEW001",
+      "studyDate": "May-11-2023",
+      "time": "01:14 PM",
+      "description": "CT NECK SOFT TISSUE WO CONTRAST",
+      "modality": "CT",
+      "accessionNumber": "ACC001",
+      "instances": 295,
+      "details": [
+        {
+          "description": "nscan1198a_ct1 split M1",
+          "series": 4,
+          "modality": "CT",
+          "instances": 763
+        },
+        {
+          "description": "nscan1198a_em1 split M1",
+          "series": 6,
+          "modality": "PT",
+          "instances": 9400
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "patientName": "M1",
+      "mrn": "M1_002",
+      "studyDate": "Sep-15-2022",
+      "time": "10:55 AM",
+      "description": "General Static Scan + CT",
+      "modality": "CTPT",
+      "accessionNumber": "ACC002",
+      "instances": 10163,
+      "details": [
+        {
+          "description": "static scan 1",
+          "series": 1,
+          "modality": "CT",
+          "instances": 5400
+        },
+        {
+          "description": "static scan 2",
+          "series": 2,
+          "modality": "PT",
+          "instances": 4763
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "patientName": "Water Phantom",
+      "mrn": "WP003",
+      "studyDate": "Sep-23-2020",
+      "time": "11:11 AM",
+      "description": "Uniformity",
+      "modality": "CTPTRTSTRUCT",
+      "accessionNumber": "ACC003",
+      "instances": 218,
+      "details": [
+        {
+          "description": "uniformity scan",
+          "series": 1,
+          "modality": "CT",
+          "instances": 218
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "patientName": "Horse",
+      "mrn": "HORSE004",
+      "studyDate": "Jul-23-2020",
+      "time": "09:26 AM",
+      "description": "OT",
+      "modality": "OT",
+      "accessionNumber": "ACC004",
+      "instances": 321,
+      "details": [
+        {
+          "description": "OT scan 1",
+          "series": 1,
+          "modality": "OT",
+          "instances": 321
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "patientName": "PATIENT, FSRT",
+      "mrn": "PYFSRT005",
+      "studyDate": "Apr-11-2017",
+      "time": "02:10 PM",
+      "description": "RT Planning",
+      "modality": "CTRTSTRUCT",
+      "accessionNumber": "ACC005",
+      "instances": 263,
+      "details": [
+        {
+          "description": "RT planning scan",
+          "series": 1,
+          "modality": "CT",
+          "instances": 263
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "patientName": "C3L-00068",
+      "mrn": "C3L0068",
+      "studyDate": "Oct-19-2016",
+      "time": "10:21 AM",
+      "description": "Histopathology",
+      "modality": "SM",
+      "accessionNumber": "C3L0068",
+      "instances": 18,
+      "details": [
+        {
+          "description": "histopathology scan",
+          "series": 1,
+          "modality": "SM",
+          "instances": 18
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "patientName": "Neptune",
+      "mrn": "NEP007",
+      "studyDate": "May-22-2014",
+      "time": "09:54 AM",
+      "description": "DFCI CT CHEST W CONTRAST",
+      "modality": "CT",
+      "accessionNumber": "ACC007",
+      "instances": 381,
+      "details": [
+        {
+          "description": "chest scan 1",
+          "series": 1,
+          "modality": "CT",
+          "instances": 381
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "patientName": "Neptune",
+      "mrn": "NEP008",
+      "studyDate": "Mar-25-2014",
+      "time": "03:29 PM",
+      "description": "DFCI CT CHEST W CONTRAST",
+      "modality": "CTRTSTRUCT",
+      "accessionNumber": "ACC008",
+      "instances": 249,
+      "details": [
+        {
+          "description": "chest scan 2",
+          "series": 1,
+          "modality": "CT",
+          "instances": 249
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "patientName": "LUNIQ-008",
+      "mrn": "LUNIQ009",
+      "studyDate": "Jan-01-2014",
+      "time": "NA",
+      "description": "Lung Scan",
+      "modality": "CTRTSTRUCT",
+      "accessionNumber": "ACC009",
+      "instances": 19,
+      "details": [
+        {
+          "description": "lung scan 1",
+          "series": 1,
+          "modality": "CT",
+          "instances": 19
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "patientName": "LiverUS-06",
+      "mrn": "LIV010",
+      "studyDate": "Oct-01-2012",
+      "time": "11:10 AM",
+      "description": "Liver Ultrasound",
+      "modality": "US",
+      "accessionNumber": "ACC010",
+      "instances": 20,
+      "details": [
+        {
+          "description": "liver ultrasound 1",
+          "series": 1,
+          "modality": "US",
+          "instances": 20
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "patientName": "NCT0047385",
+      "mrn": "NCT011",
+      "studyDate": "Jul-02-2009",
+      "time": "04:12 PM",
+      "description": "Histopathology",
+      "modality": "SM",
+      "accessionNumber": "ACC011",
+      "instances": 18,
+      "details": [
+        {
+          "description": "histopathology scan 2",
+          "series": 1,
+          "modality": "SM",
+          "instances": 18
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "patientName": "TCGA-02-0006",
+      "mrn": "TCGA012",
+      "studyDate": "Jan-20-2009",
+      "time": "04:39 PM",
+      "description": "Histopathology",
+      "modality": "SM",
+      "accessionNumber": "ACC012",
+      "instances": 77,
+      "details": [
+        {
+          "description": "histopathology scan 3",
+          "series": 1,
+          "modality": "SM",
+          "instances": 77
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "patientName": "SIIM, Sally",
+      "mrn": "SS013",
+      "studyDate": "Apr-12-2008",
+      "time": "10:25 AM",
+      "description": "Digital Diagnostic Mammogram",
+      "modality": "MG",
+      "accessionNumber": "ACC013",
+      "instances": 33,
+      "details": [
+        {
+          "description": "mammogram 1",
+          "series": 1,
+          "modality": "MG",
+          "instances": 33
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "patientName": "StageII-Colorectal-Cancer",
+      "mrn": "STG014",
+      "studyDate": "Jan-09-2008",
+      "time": "11:55 AM",
+      "description": "Chest CT Routine",
+      "modality": "CTSEG",
+      "accessionNumber": "ACC014",
+      "instances": 214,
+      "details": [
+        {
+          "description": "chest CT routine 1",
+          "series": 1,
+          "modality": "CT",
+          "instances": 214
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "patientName": "TCGA-00-ABVH",
+      "mrn": "TCGA015",
+      "studyDate": "Mar-12-2007",
+      "time": "04:48 PM",
+      "description": "MRI THORACIC WO CONTRAST",
+      "modality": "MR",
+      "accessionNumber": "ACC015",
+      "instances": 214,
+      "details": [
+        {
+          "description": "thoracic MRI 1",
+          "series": 1,
+          "modality": "MR",
+          "instances": 214
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "patientName": "DBT-P00001",
+      "mrn": "DBT016",
+      "studyDate": "Jul-11-2006",
+      "time": "12:00 AM",
+      "description": "MAMMO SCREENING DIGITAL",
+      "modality": "MG",
+      "accessionNumber": "ACC016",
+      "instances": 48,
+      "details": [
+        {
+          "description": "mammogram 2",
+          "series": 1,
+          "modality": "MG",
+          "instances": 48
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "patientName": "FreeSurfer 5E0",
+      "mrn": "FS017",
+      "studyDate": "Dec-31-1999",
+      "time": "12:11 PM",
+      "description": "MR SEGMENTATION",
+      "modality": "MRSEG",
+      "accessionNumber": "ACC017",
+      "instances": 19,
+      "details": [
+        {
+          "description": "brain segmentation",
+          "series": 1,
+          "modality": "MR",
+          "instances": 19
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "patientName": "HCC_004",
+      "mrn": "HCC018",
+      "studyDate": "Oct-06-1997",
+      "time": "NA",
+      "description": "LIVERPELVIS",
+      "modality": "CTSEG",
+      "accessionNumber": "ACC018",
+      "instances": 17,
+      "details": [
+        {
+          "description": "liver scan 1",
+          "series": 1,
+          "modality": "CT",
+          "instances": 17
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "patientName": "PCAMP-MRI002",
+      "mrn": "PCAMP019",
+      "studyDate": "Jul-01-1997",
+      "time": "05:00 PM",
+      "description": "PCAMPMRI",
+      "modality": "SEGMR",
+      "accessionNumber": "ACC019",
+      "instances": 22,
+      "details": [
+        {
+          "description": "PCAMPMRI scan",
+          "series": 1,
+          "modality": "MR",
+          "instances": 22
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "patientName": "TCGA-09-1667",
+      "mrn": "TCGA020",
+      "studyDate": "Mar-13-1995",
+      "time": "10:52 AM",
+      "description": "CT ABD PELV EN",
+      "modality": "CTSEG",
+      "accessionNumber": "ACC020",
+      "instances": 67,
+      "details": [
+        {
+          "description": "abdomen pelvis scan",
+          "series": 1,
+          "modality": "CT",
+          "instances": 67
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "patientName": "ACRIN-NSCLC-FDG",
+      "mrn": "ACRIN021",
+      "studyDate": "Jan-16-1960",
+      "time": "08:42 AM",
+      "description": "WB PETCT",
+      "modality": "PTCT",
+      "accessionNumber": "ACC021",
+      "instances": 934,
+      "details": [
+        {
+          "description": "whole body PET scan",
+          "series": 1,
+          "modality": "PT",
+          "instances": 467
+        },
+        {
+          "description": "whole body CT scan",
+          "series": 2,
+          "modality": "CT",
+          "instances": 467
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "patientName": "MRI Brain",
+      "mrn": "NEW002",
+      "studyDate": "Jun-15-2023",
+      "time": "10:30 AM",
+      "description": "MRI BRAIN WO CONTRAST",
+      "modality": "MRI",
+      "accessionNumber": "ACC002",
+      "instances": 320,
+      "details": [
+        {
+          "description": "nscan1201a_mri1 split M1",
+          "series": 2,
+          "modality": "MRI",
+          "instances": 810
+        },
+        {
+          "description": "nscan1201a_mri2 split M2",
+          "series": 3,
+          "modality": "MRI",
+          "instances": 1500
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "patientName": "CT Chest",
+      "mrn": "NEW003",
+      "studyDate": "Jul-20-2023",
+      "time": "03:45 PM",
+      "description": "CT CHEST W CONTRAST",
+      "modality": "CT",
+      "accessionNumber": "ACC003",
+      "instances": 400,
+      "details": [
+        {
+          "description": "nscan1215a_ct1 split M1",
+          "series": 1,
+          "modality": "CT",
+          "instances": 980
+        },
+        {
+          "description": "nscan1215a_ct2 split M2",
+          "series": 5,
+          "modality": "CT",
+          "instances": 1050
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "patientName": "Ultrasound Abdomen",
+      "mrn": "NEW004",
+      "studyDate": "Aug-01-2023",
+      "time": "09:00 AM",
+      "description": "ULTRASOUND ABDOMEN",
+      "modality": "US",
+      "accessionNumber": "ACC004",
+      "instances": 150,
+      "details": [
+        {
+          "description": "nscan1223a_us1 split M1",
+          "series": 1,
+          "modality": "US",
+          "instances": 200
+        },
+        {
+          "description": "nscan1223a_us2 split M2",
+          "series": 2,
+          "modality": "US",
+          "instances": 180
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "patientName": "X-Ray Chest",
+      "mrn": "NEW005",
+      "studyDate": "Sep-10-2023",
+      "time": "11:30 AM",
+      "description": "X-RAY CHEST PA",
+      "modality": "XR",
+      "accessionNumber": "ACC005",
+      "instances": 50,
+      "details": [
+        {
+          "description": "nscan1235a_xr1 split M1",
+          "series": 1,
+          "modality": "XR",
+          "instances": 100
+        },
+        {
+          "description": "nscan1235a_xr2 split M2",
+          "series": 3,
+          "modality": "XR",
+          "instances": 75
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "patientName": "PET-CT Whole Body",
+      "mrn": "NEW006",
+      "studyDate": "Oct-25-2023",
+      "time": "02:15 PM",
+      "description": "PET-CT WHOLE BODY",
+      "modality": "PET-CT",
+      "accessionNumber": "ACC006",
+      "instances": 500,
+      "details": [
+        {
+          "description": "nscan1244a_petct1 split M1",
+          "series": 1,
+          "modality": "PET",
+          "instances": 1200
+        },
+        {
+          "description": "nscan1244a_petct2 split M2",
+          "series": 4,
+          "modality": "CT",
+          "instances": 1300
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "patientName": "MRI Spine",
+      "mrn": "NEW007",
+      "studyDate": "Nov-05-2023",
+      "time": "01:00 PM",
+      "description": "MRI SPINE WO CONTRAST",
+      "modality": "MRI",
+      "accessionNumber": "ACC007",
+      "instances": 275,
+      "details": [
+        {
+          "description": "nscan1250a_mri1 split M1",
+          "series": 3,
+          "modality": "MRI",
+          "instances": 700
+        },
+        {
+          "description": "nscan1250a_mri2 split M2",
+          "series": 5,
+          "modality": "MRI",
+          "instances": 1450
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "patientName": "CT Abdomen",
+      "mrn": "NEW008",
+      "studyDate": "Dec-12-2023",
+      "time": "04:20 PM",
+      "description": "CT ABDOMEN W CONTRAST",
+      "modality": "CT",
+      "accessionNumber": "ACC008",
+      "instances": 310,
+      "details": [
+        {
+          "description": "nscan1263a_ct1 split M1",
+          "series": 2,
+          "modality": "CT",
+          "instances": 890
+        },
+        {
+          "description": "nscan1263a_ct2 split M2",
+          "series": 6,
+          "modality": "CT",
+          "instances": 1020
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "patientName": "X-Ray Abdomen",
+      "mrn": "NEW009",
+      "studyDate": "Jan-08-2024",
+      "time": "08:45 AM",
+      "description": "X-RAY ABDOMEN AP",
+      "modality": "XR",
+      "accessionNumber": "ACC009",
+      "instances": 80,
+      "details": [
+        {
+          "description": "nscan1271a_xr1 split M1",
+          "series": 1,
+          "modality": "XR",
+          "instances": 120
+        },
+        {
+          "description": "nscan1271a_xr2 split M2",
+          "series": 4,
+          "modality": "XR",
+          "instances": 95
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "patientName": "MRI Pelvis",
+      "mrn": "NEW010",
+      "studyDate": "Feb-14-2024",
+      "time": "05:00 PM",
+      "description": "MRI PELVIS WO CONTRAST",
+      "modality": "MRI",
+      "accessionNumber": "ACC010",
+      "instances": 260,
+      "details": [
+        {
+          "description": "nscan1280a_mri1 split M1",
+          "series": 1,
+          "modality": "MRI",
+          "instances": 780
+        },
+        {
+          "description": "nscan1280a_mri2 split M2",
+          "series": 5,
+          "modality": "MRI",
+          "instances": 1650
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "patientName": "CT Head",
+      "mrn": "NEW011",
+      "studyDate": "Mar-22-2024",
+      "time": "12:30 PM",
+      "description": "CT HEAD WO CONTRAST",
+      "modality": "CT",
+      "accessionNumber": "ACC011",
+      "instances": 330,
+      "details": [
+        {
+          "description": "nscan1290a_ct1 split M1",
+          "series": 3,
+          "modality": "CT",
+          "instances": 950
+        },
+        {
+          "description": "nscan1290a_ct2 split M2",
+          "series": 7,
+          "modality": "CT",
+          "instances": 1150
+        }
+      ]
+    }
+  ]
+}

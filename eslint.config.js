@@ -12,6 +12,7 @@ export default tseslint.config({
     ...tseslint.configs.strictTypeChecked,
     ...tseslint.configs.stylisticTypeChecked,
   ],
+  // add ts tsx js jsx json css
   files: ["**/*.{ts,tsx}"],
   ignores: ["dist"],
   languageOptions: {
