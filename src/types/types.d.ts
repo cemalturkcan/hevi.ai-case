@@ -1,7 +1,10 @@
+import { ColumnFilterElementTemplateOptions } from "primereact/column";
+
 export interface Study {
   patientName: string;
   mrn: string;
   studyDate: string;
+  studyDateFormatted?: Date;
   description: string;
   modality: string;
   accessionNumber: string;
@@ -18,4 +21,22 @@ export interface StudyDetails {
 
 export interface Studies {
   studies: Study[];
+}
+
+interface FilterConstraint {
+  value: any;
+}
+
+interface Filter {
+  constraints: FilterConstraint[];
+}
+
+type Filters = Record<string, Filter>;
+
+type SetFilters = (filters: Filters) => void;
+
+interface TextFilterProps {
+  options: ColumnFilterElementTemplateOptions;
+  setFilters: SetFilters;
+  filters: Filters;
 }
