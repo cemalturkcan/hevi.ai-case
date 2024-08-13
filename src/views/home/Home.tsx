@@ -9,6 +9,7 @@ import TextFilter from "@/components/TextFilter.tsx";
 import DateFilter from "@/components/datefilter/DateFilter.tsx";
 import { Button } from "primereact/button";
 import { Link } from "react-router-dom";
+import "./style.css";
 
 const defaultFilters: DataTableFilterMeta = {
   patientName: {
@@ -103,6 +104,7 @@ function Home() {
         paginator
         rows={10}
         filterDisplay="row"
+        className="full-h-table"
         value={typedData.studies}
         filters={filters}
         rowExpansionTemplate={rowExpansionTemplate}

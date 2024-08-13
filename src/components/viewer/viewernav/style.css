@@ -1,7 +1,7 @@
 .viewer-nav {
     width: 200px;
     height: calc(100vh - 16px);
-    background-color: #000000;
+    background-color: var(--surface-e);
     position: absolute;
     border-radius: 8px 0 0 8px;
     right: 0;
@@ -37,7 +37,7 @@
 }
 
 .tag {
-    background-color: #212b7e;
+    background-color: var(--surface-d);
     min-width: 20px;
     text-align: center;
     border-radius: 8px 0 0 8px;

@@ -1,7 +1,7 @@
 .viewer {
     width: calc(100% - 210px);
     height: calc(100vh - 16px);
-    border: 2px solid #5ACCE6;
+    border: 2px solid var(--primary-color);
     border-radius: 8px;
     overflow: hidden;
     display: flex;
