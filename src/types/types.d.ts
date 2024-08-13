@@ -26,7 +26,7 @@ export interface Studies {
 }
 
 interface FilterConstraint {
-  value: string | null | undefined;
+  value: any;
 }
 
 interface Filter {
