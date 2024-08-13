@@ -15,7 +15,7 @@ const DropdownFilter: React.FC<DropdownFilterProps> = ({
         type={"search"}
         className="w-full"
         options={values}
-        showClear={true}
+        showClear={filters[options.field].constraints[0].value}
         value={filters[options.field].constraints[0].value ?? ""}
         onChange={(e) => {
           setFilters({
