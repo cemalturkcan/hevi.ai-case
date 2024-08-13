@@ -27,7 +27,7 @@ export const TOOL_NAMES = {
   RECTANGLE_ROI: "RectangleRoi",
 };
 
-export const useDicomViewer = ({ image }: { image: string | null }) => {
+export const useViewer = ({ image }: { image: string | null }) => {
   const elementRef = useRef<HTMLDivElement | null>(null);
   const [activeTools, setActiveTools] = useState<string[]>([]);
   const [loading, setLoading] = useState(true);
@@ -85,8 +85,13 @@ export const useDicomViewer = ({ image }: { image: string | null }) => {
         cornerstone.displayImage(elementRef.current, image);
         if (!toolAdded.current) {
           toolAdded.current = true;
-          const RectangleRoiTool = cornerstoneTools.RectangleRoiTool;
-          cornerstoneTools.addTool(RectangleRoiTool);
+          cornerstoneTools.addTool(cornerstoneTools.RectangleRoiTool);
+          // clear state
+          cornerstoneTools.clearToolState(
+            elementRef.current,
+            TOOL_NAMES.RECTANGLE_ROI,
+          );
+
           elementRef.current?.addEventListener(
             "cornerstonetoolsmeasurementmodified",
             updateRectangleRoiTool,

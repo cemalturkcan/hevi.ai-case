@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import "./style.css";
-import { useDicomViewer } from "@/hook/useViewer.tsx";
+import { useViewer } from "@/hook/useViewer.tsx";
 import ViewerNav from "@/components/viewer/viewernav/ViewerNav.tsx";
 import { useParams } from "react-router-dom";
 import data from "@/assets/dummy/data.json";
@@ -18,7 +18,7 @@ const DicomViewer: React.FC = () => {
     activeTools,
     deleteRectangleById,
     loading,
-  } = useDicomViewer({
+  } = useViewer({
     image,
   });
 
