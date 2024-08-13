@@ -28,6 +28,7 @@ Navigation is managed using react-router-dom. The application has two main route
 / for the Home page
 /viewer:id for the DICOM Viewer page
 
+# [Live Demo](https://hevi-ai.cemalturkcan.com/)
 
 Main Page:
 ![image](https://github.com/user-attachments/assets/0b6a2a4c-0cf0-43b8-8818-84a343e9a83c)

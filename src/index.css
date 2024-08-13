@@ -12,3 +12,9 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+
+.full-h-table > .p-datatable-wrapper{
+    max-height: calc(100vh - 79px);
+    min-height: calc(100vh - 79px);
+    background-color: var(--surface-a);
+}

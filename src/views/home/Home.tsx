@@ -9,7 +9,8 @@ import TextFilter from "@/components/TextFilter.tsx";
 import DateFilter from "@/components/datefilter/DateFilter.tsx";
 import { Button } from "primereact/button";
 import { Link } from "react-router-dom";
-import "./style.css";
+import "./style.module.css";
+import DropdownFilter from "@/components/dropdownfilter/DropdownFilter.tsx";
 
 const defaultFilters: DataTableFilterMeta = {
   patientName: {
@@ -35,7 +36,7 @@ const defaultFilters: DataTableFilterMeta = {
   },
   modality: {
     operator: FilterOperator.AND,
-    constraints: [{ value: null, matchMode: FilterMatchMode.STARTS_WITH }],
+    constraints: [{ value: null, matchMode: FilterMatchMode.EQUALS }],
   },
   accessionNumber: {
     operator: FilterOperator.AND,
@@ -45,10 +46,12 @@ const defaultFilters: DataTableFilterMeta = {
 
 function Home() {
   const [typedData] = useState<Studies>(data as Studies);
+  const modalities = new Set<string>();
   typedData.studies.map((study) => {
     const date = new Date(study.studyDate);
     date.setDate(date.getDate() + 1);
     study.studyDateFormatted = date;
+    modalities.add(study.modality);
     return study;
   });
 
@@ -197,10 +200,11 @@ function Home() {
           filter
           showFilterMenu={false}
           filterElement={(options) => (
-            <TextFilter
+            <DropdownFilter
               options={options}
               filters={filters as Filters}
               setFilters={setFilters as SetFilters}
+              values={Array.from(modalities)}
             />
           )}
         />

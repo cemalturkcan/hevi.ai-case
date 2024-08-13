@@ -42,3 +42,10 @@ interface TextFilterProps {
   setFilters: SetFilters;
   filters: Filters;
 }
+
+interface DropdownFilterProps {
+  options: ColumnFilterElementTemplateOptions;
+  setFilters: SetFilters;
+  filters: Filters;
+  values: any[];
+}
