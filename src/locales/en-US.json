@@ -5,5 +5,9 @@
   "description": "Description",
   "modality": "Modality",
   "accessionNumber": "Accession Number",
-  "instances": "Instances"
+  "instances": "Instances",
+  "measurements": "Measurements",
+  "max": "Max",
+  "hu": "HU",
+  "basicViewer": "Basic Viewer"
 }

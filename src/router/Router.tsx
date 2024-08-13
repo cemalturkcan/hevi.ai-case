@@ -1,6 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import RootLayout from "@/layout/RootLayout.tsx";
 import Home from "@/views/Home.tsx";
+import CornerstoneViewer from "@/views/viewer/Viewer.tsx";
 
 export const router = createBrowserRouter([
   {
@@ -10,6 +11,10 @@ export const router = createBrowserRouter([
       {
         path: "/",
         element: <Home />,
+      },
+      {
+        path: "/viewer/:id",
+        element: <CornerstoneViewer />,
       },
     ],
   },

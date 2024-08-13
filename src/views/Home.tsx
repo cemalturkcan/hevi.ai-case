@@ -1,12 +1,14 @@
 import { DataTable, DataTableFilterMeta } from "primereact/datatable";
 import data from "@/assets/dummy/data.json";
-import { Column } from "primereact/column";
+import { Column, ColumnBodyOptions } from "primereact/column";
 import { useTranslation } from "react-i18next";
 import { useEffect, useState } from "react";
 import { Filters, SetFilters, Studies, Study } from "@/types/types";
 import { FilterMatchMode, FilterOperator } from "primereact/api";
 import TextFilter from "@/components/TextFilter.tsx";
 import DateFilter from "@/components/datefilter/DateFilter.tsx";
+import { Button } from "primereact/button";
+import { Link } from "react-router-dom";
 
 const defaultFilters: DataTableFilterMeta = {
   patientName: {
@@ -67,13 +69,30 @@ function Home() {
 
   const rowExpansionTemplate = (data: Study) => {
     return (
-      <div className="p-3">
+      <div className="flex flex-column gap-3">
+        <div className="">
+          <Link to={`/viewer/${data.id}`}>
+            <Button
+              label={t("basicViewer")}
+              icon={"pi pi-arrow-right"}
+              iconPos={"right"}
+            />
+          </Link>
+        </div>
         <DataTable value={data.details}>
           <Column field="description" header="description"></Column>
           <Column field="series" header="series"></Column>
           <Column field="modality" header="modality"></Column>
           <Column field="instances" header="instances"></Column>
         </DataTable>
+      </div>
+    );
+  };
+
+  const bodyTemplate = (rowData: Study, options: ColumnBodyOptions) => {
+    return (
+      <div className="white-space-nowrap overflow-hidden text-overflow-ellipsis">
+        {rowData[options.field as keyof Study] as string}
       </div>
     );
   };
@@ -100,6 +119,8 @@ function Home() {
         <Column
           field="patientName"
           header={t("patientName")}
+          style={{ maxWidth: "300px", minWidth: "300px" }}
+          body={(rowData, options) => bodyTemplate(rowData as Study, options)}
           sortable
           filter
           showFilterMenu={false}
@@ -116,6 +137,8 @@ function Home() {
         <Column
           field="mrn"
           header={t("mrn")}
+          style={{ maxWidth: "300px", minWidth: "300px" }}
+          body={(rowData, options) => bodyTemplate(rowData as Study, options)}
           sortable
           showFilterMenu={false}
           filter
@@ -130,6 +153,8 @@ function Home() {
         <Column
           field="studyDate"
           header={t("studyDate")}
+          style={{ maxWidth: "400px", minWidth: "400px" }}
+          body={(rowData, options) => bodyTemplate(rowData as Study, options)}
           sortable
           sortField={"studyDateFormatted"}
           filter
@@ -148,6 +173,8 @@ function Home() {
         <Column
           field="description"
           header={t("description")}
+          style={{ maxWidth: "300px", minWidth: "300px" }}
+          body={(rowData, options) => bodyTemplate(rowData as Study, options)}
           sortable
           filter
           showFilterMenu={false}
@@ -162,6 +189,8 @@ function Home() {
         <Column
           field="modality"
           header={t("modality")}
+          style={{ maxWidth: "300px", minWidth: "300px" }}
+          body={(rowData, options) => bodyTemplate(rowData as Study, options)}
           sortable
           filter
           showFilterMenu={false}
@@ -176,6 +205,8 @@ function Home() {
         <Column
           field="accessionNumber"
           header={t("accessionNumber")}
+          style={{ maxWidth: "300px", minWidth: "300px" }}
+          body={(rowData, options) => bodyTemplate(rowData as Study, options)}
           sortable
           showFilterMenu={false}
           filter
@@ -190,6 +221,7 @@ function Home() {
         <Column
           field="instances"
           showFilterMenu={false}
+          style={{ minWidth: "100px" }}
           header={t("instances")}
           filterElement={(options) => (
             <TextFilter

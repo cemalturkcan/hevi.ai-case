@@ -1,6 +1,6 @@
-import "./style.css";
 import { useEffect, useState } from "react";
 import type { Router as RemixRouter } from "@remix-run/router/dist/router";
+import LoaderBase from "@/layout/loader/LoaderBase.tsx";
 
 function RootLayout({ router }: { router: RemixRouter }) {
   const [isLoading, setIsLoading] = useState(true);
@@ -18,13 +18,7 @@ function RootLayout({ router }: { router: RemixRouter }) {
     };
   }, []);
 
-  return (
-    isLoading && (
-      <div className="loader-container">
-        <span className="loader"></span>
-      </div>
-    )
-  );
+  return isLoading && <LoaderBase isLoading={isLoading} />;
 }
 
 export default RootLayout;

@@ -2,7 +2,7 @@
   "studies": [
     {
       "id": "1",
-      "patientName": "CTA Head and Neck",
+      "patientName": "CTA Head and Neckssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss",
       "mrn": "NEW001",
       "studyDate": "May-11-2023",
       "time": "01:14 PM",
@@ -10,6 +10,7 @@
       "modality": "CT",
       "accessionNumber": "ACC001",
       "instances": 295,
+      "dcm": "https://tools.cornerstonejs.org/examples/assets/dicom/bellona/chest_lung/34.dcm",
       "details": [
         {
           "description": "nscan1198a_ct1 split M1",
@@ -35,6 +36,7 @@
       "modality": "CTPT",
       "accessionNumber": "ACC002",
       "instances": 10163,
+      "dcm": "https://tools.cornerstonejs.org/examples/assets/dicom/exotic/1.dcm",
       "details": [
         {
           "description": "static scan 1",
@@ -60,6 +62,7 @@
       "modality": "CTPTRTSTRUCT",
       "accessionNumber": "ACC003",
       "instances": 218,
+      "dcm": "https://tools.cornerstonejs.org/examples/assets/dicom/exotic/3.dcm",
       "details": [
         {
           "description": "uniformity scan",
@@ -79,6 +82,7 @@
       "modality": "OT",
       "accessionNumber": "ACC004",
       "instances": 321,
+      "dcm": "https://tools.cornerstonejs.org/examples/assets/dicom/bellona/chest_lung/34.dcm",
       "details": [
         {
           "description": "OT scan 1",
@@ -98,6 +102,7 @@
       "modality": "CTRTSTRUCT",
       "accessionNumber": "ACC005",
       "instances": 263,
+      "dcm": "https://tools.cornerstonejs.org/examples/assets/dicom/exotic/1.dcm",
       "details": [
         {
           "description": "RT planning scan",
@@ -117,6 +122,7 @@
       "modality": "SM",
       "accessionNumber": "C3L0068",
       "instances": 18,
+      "dcm": "https://tools.cornerstonejs.org/examples/assets/dicom/exotic/3.dcm",
       "details": [
         {
           "description": "histopathology scan",
@@ -136,6 +142,7 @@
       "modality": "CT",
       "accessionNumber": "ACC007",
       "instances": 381,
+      "dcm": "https://tools.cornerstonejs.org/examples/assets/dicom/bellona/chest_lung/34.dcm",
       "details": [
         {
           "description": "chest scan 1",
@@ -155,6 +162,7 @@
       "modality": "CTRTSTRUCT",
       "accessionNumber": "ACC008",
       "instances": 249,
+      "dcm": "https://tools.cornerstonejs.org/examples/assets/dicom/exotic/1.dcm",
       "details": [
         {
           "description": "chest scan 2",
@@ -174,6 +182,7 @@
       "modality": "CTRTSTRUCT",
       "accessionNumber": "ACC009",
       "instances": 19,
+      "dcm": "https://tools.cornerstonejs.org/examples/assets/dicom/exotic/3.dcm",
       "details": [
         {
           "description": "lung scan 1",
@@ -193,6 +202,7 @@
       "modality": "US",
       "accessionNumber": "ACC010",
       "instances": 20,
+      "dcm": "https://tools.cornerstonejs.org/examples/assets/dicom/bellona/chest_lung/34.dcm",
       "details": [
         {
           "description": "liver ultrasound 1",
@@ -212,6 +222,7 @@
       "modality": "SM",
       "accessionNumber": "ACC011",
       "instances": 18,
+      "dcm": "https://tools.cornerstonejs.org/examples/assets/dicom/exotic/1.dcm",
       "details": [
         {
           "description": "histopathology scan 2",
@@ -231,6 +242,7 @@
       "modality": "SM",
       "accessionNumber": "ACC012",
       "instances": 77,
+      "dcm": "https://tools.cornerstonejs.org/examples/assets/dicom/exotic/3.dcm",
       "details": [
         {
           "description": "histopathology scan 3",
@@ -250,6 +262,7 @@
       "modality": "MG",
       "accessionNumber": "ACC013",
       "instances": 33,
+      "dcm": "https://tools.cornerstonejs.org/examples/assets/dicom/bellona/chest_lung/34.dcm",
       "details": [
         {
           "description": "mammogram 1",
@@ -269,6 +282,8 @@
       "modality": "CTSEG",
       "accessionNumber": "ACC014",
       "instances": 214,
+      "dcm": "https://tools.cornerstonejs.org/examples/assets/dicom/exotic/1.dcm",
+
       "details": [
         {
           "description": "chest CT routine 1",
@@ -288,6 +303,7 @@
       "modality": "MR",
       "accessionNumber": "ACC015",
       "instances": 214,
+      "dcm": "https://tools.cornerstonejs.org/examples/assets/dicom/exotic/3.dcm",
       "details": [
         {
           "description": "thoracic MRI 1",
@@ -307,6 +323,7 @@
       "modality": "MG",
       "accessionNumber": "ACC016",
       "instances": 48,
+      "dcm": "https://tools.cornerstonejs.org/examples/assets/dicom/bellona/chest_lung/34.dcm",
       "details": [
         {
           "description": "mammogram 2",
@@ -326,6 +343,7 @@
       "modality": "MRSEG",
       "accessionNumber": "ACC017",
       "instances": 19,
+      "dcm": "https://tools.cornerstonejs.org/examples/assets/dicom/exotic/1.dcm",
       "details": [
         {
           "description": "brain segmentation",
@@ -345,6 +363,7 @@
       "modality": "CTSEG",
       "accessionNumber": "ACC018",
       "instances": 17,
+      "dcm": "https://tools.cornerstonejs.org/examples/assets/dicom/exotic/3.dcm",
       "details": [
         {
           "description": "liver scan 1",
@@ -364,6 +383,7 @@
       "modality": "SEGMR",
       "accessionNumber": "ACC019",
       "instances": 22,
+      "dcm": "https://tools.cornerstonejs.org/examples/assets/dicom/bellona/chest_lung/34.dcm",
       "details": [
         {
           "description": "PCAMPMRI scan",
@@ -383,6 +403,7 @@
       "modality": "CTSEG",
       "accessionNumber": "ACC020",
       "instances": 67,
+      "dcm": "https://tools.cornerstonejs.org/examples/assets/dicom/exotic/1.dcm",
       "details": [
         {
           "description": "abdomen pelvis scan",
@@ -402,6 +423,7 @@
       "modality": "PTCT",
       "accessionNumber": "ACC021",
       "instances": 934,
+      "dcm": "https://tools.cornerstonejs.org/examples/assets/dicom/exotic/3.dcm",
       "details": [
         {
           "description": "whole body PET scan",
@@ -427,6 +449,7 @@
       "modality": "MRI",
       "accessionNumber": "ACC002",
       "instances": 320,
+      "dcm": "https://tools.cornerstonejs.org/examples/assets/dicom/bellona/chest_lung/34.dcm",
       "details": [
         {
           "description": "nscan1201a_mri1 split M1",
@@ -452,6 +475,7 @@
       "modality": "CT",
       "accessionNumber": "ACC003",
       "instances": 400,
+      "dcm": "https://tools.cornerstonejs.org/examples/assets/dicom/exotic/1.dcm",
       "details": [
         {
           "description": "nscan1215a_ct1 split M1",
@@ -477,6 +501,7 @@
       "modality": "US",
       "accessionNumber": "ACC004",
       "instances": 150,
+      "dcm": "https://tools.cornerstonejs.org/examples/assets/dicom/exotic/3.dcm",
       "details": [
         {
           "description": "nscan1223a_us1 split M1",
@@ -502,6 +527,7 @@
       "modality": "XR",
       "accessionNumber": "ACC005",
       "instances": 50,
+      "dcm": "https://tools.cornerstonejs.org/examples/assets/dicom/bellona/chest_lung/34.dcm",
       "details": [
         {
           "description": "nscan1235a_xr1 split M1",
@@ -527,6 +553,7 @@
       "modality": "PET-CT",
       "accessionNumber": "ACC006",
       "instances": 500,
+      "dcm": "https://tools.cornerstonejs.org/examples/assets/dicom/exotic/1.dcm",
       "details": [
         {
           "description": "nscan1244a_petct1 split M1",
@@ -552,6 +579,7 @@
       "modality": "MRI",
       "accessionNumber": "ACC007",
       "instances": 275,
+      "dcm": "https://tools.cornerstonejs.org/examples/assets/dicom/exotic/3.dcm",
       "details": [
         {
           "description": "nscan1250a_mri1 split M1",
@@ -577,6 +605,7 @@
       "modality": "CT",
       "accessionNumber": "ACC008",
       "instances": 310,
+      "dcm": "https://tools.cornerstonejs.org/examples/assets/dicom/bellona/chest_lung/34.dcm",
       "details": [
         {
           "description": "nscan1263a_ct1 split M1",
@@ -602,6 +631,7 @@
       "modality": "XR",
       "accessionNumber": "ACC009",
       "instances": 80,
+      "dcm": "https://tools.cornerstonejs.org/examples/assets/dicom/exotic/1.dcm",
       "details": [
         {
           "description": "nscan1271a_xr1 split M1",
@@ -627,6 +657,7 @@
       "modality": "MRI",
       "accessionNumber": "ACC010",
       "instances": 260,
+      "dcm": "https://tools.cornerstonejs.org/examples/assets/dicom/exotic/3.dcm",
       "details": [
         {
           "description": "nscan1280a_mri1 split M1",
@@ -652,6 +683,7 @@
       "modality": "CT",
       "accessionNumber": "ACC011",
       "instances": 330,
+      "dcm": "https://tools.cornerstonejs.org/examples/assets/dicom/bellona/chest_lung/34.dcm",
       "details": [
         {
           "description": "nscan1290a_ct1 split M1",

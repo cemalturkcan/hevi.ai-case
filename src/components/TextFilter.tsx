@@ -10,7 +10,7 @@ const TextFilter: React.FC<TextFilterProps> = ({
   return (
     <InputText
       type={"search"}
-      value={options.value as string}
+      value={filters[options.field].constraints[0].value ?? ""}
       onChange={(e) => {
         setFilters({
           ...filters,

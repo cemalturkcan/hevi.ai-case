@@ -7,14 +7,18 @@ import autoprefixer from "autoprefixer";
 export default defineConfig({
   resolve: {
     alias: {
-      // eslint-disable-next-line @typescript-eslint/no-unsafe-call
       "@": path.resolve(__dirname, "./src"),
     },
+  },
+  worker: {
+    format: "es",
   },
   css: {
     postcss: {
       plugins: [autoprefixer({})],
     },
   },
+  optimizeDeps: {},
+  assetsInclude: ["**/*.wasm"],
   plugins: [react()],
 });

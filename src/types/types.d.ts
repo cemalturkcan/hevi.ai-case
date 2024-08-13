@@ -1,6 +1,7 @@
 import { ColumnFilterElementTemplateOptions } from "primereact/column";
 
 export interface Study {
+  id: string;
   patientName: string;
   mrn: string;
   studyDate: string;
@@ -9,6 +10,7 @@ export interface Study {
   modality: string;
   accessionNumber: string;
   instances: number;
+  dcm: string;
   details: StudyDetails[];
 }
 
@@ -24,7 +26,7 @@ export interface Studies {
 }
 
 interface FilterConstraint {
-  value: any;
+  value: string | null | undefined;
 }
 
 interface Filter {
