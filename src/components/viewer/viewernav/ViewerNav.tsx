@@ -33,19 +33,18 @@ const ViewerNav = ({
         />
       </div>
       {rectangleRoiTool.length > 0 && (
-        <div className="overflow-y-auto flex flex-column  h-full gap-4">
+        <div className="overflow-y-auto flex flex-column  h-full gap-4 ">
           {rectangleRoiTool.map((tool: RectangleRoiToolData, index: number) => (
-            <div key={tool.id} className="rect-data">
-              <div className="tag">{index + 1}</div>
-              <div className="measurements text-xs">
-                <p className="measurement">{tool.areaInPixels}</p>
-                <div className="measurement-group">
-                  <p className="measurement">
-                    {t("max")}: {tool.max} {t("hu")}
-                  </p>
-                  <p className="measurement"> {tool.mean}</p>
-                  <p className="measurement">{tool.stdDev}</p>
-                  <p className="measurement">{tool.max}</p>
+            <div key={tool.id} className="rect-data ">
+              <div className="flex">
+                <div className="tag">{index + 1}</div>
+                <div className="measurements text-xs">
+                  <p className="measurement">{tool.areaInPixels} mm²</p>
+                  <div className="measurement-group">
+                    <p className="measurement">
+                      {t("max")}: {tool.max} {t("hu")}
+                    </p>
+                  </div>
                 </div>
               </div>
               <i
