@@ -28,3 +28,14 @@ Navigation is managed using react-router-dom. The application has two main route
 / for the Home page
 /viewer:id for the DICOM Viewer page
 
+
+Main Page:
+![image](https://github.com/user-attachments/assets/0b6a2a4c-0cf0-43b8-8818-84a343e9a83c)
+
+DICOM Viewer
+
+![image](https://github.com/user-attachments/assets/ab24fd38-ad6a-4ea2-84b7-b49f41e31fda)
+
+![image](https://github.com/user-attachments/assets/3c67c7b7-b8dc-403d-8ca5-fe7905095d4e)
+
+
