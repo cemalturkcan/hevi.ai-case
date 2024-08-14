@@ -84,10 +84,10 @@ function Home() {
           </Link>
         </div>
         <DataTable value={data.details}>
-          <Column field="description" header="description"></Column>
-          <Column field="series" header="series"></Column>
-          <Column field="modality" header="modality"></Column>
-          <Column field="instances" header="instances"></Column>
+          <Column field="description" header={t("description")}></Column>
+          <Column field="series" header={t("series")}></Column>
+          <Column field="modality" header={t("modality")}></Column>
+          <Column field="instances" header={t("instances")}></Column>
         </DataTable>
       </div>
     );
